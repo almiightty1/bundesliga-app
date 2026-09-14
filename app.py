@@ -9,7 +9,7 @@ from datetime import datetime
 st.set_page_config(page_title="Bundesliga Pro Analytics", page_icon="🏟️", layout="wide")
 
 # --- CABECERA VISUAL ---
-st.image("https://images.unsplash.com/photo-1522778119026-d647f0596c20?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80", use_column_width=True)
+st.image("https://images.unsplash.com/photo-1522778119026-d647f0596c20?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80", use_container_width=True)
 st.markdown("<h1 style='text-align: center; color: #4CAF50;'>⚽ Bundesliga Quant Model V3.5</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; font-size: 18px; color: #aaaaaa;'>Dashboard Institucional: Poisson + Goles Esperados (xG) + Detección Visual de <i>Value Bets</i>.</p>", unsafe_allow_html=True)
 st.markdown("---")
